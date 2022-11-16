@@ -1,0 +1,139 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+.inicio-texto {
+    font-size: 0.8em;
+    margin-left: 3em;
+    display: inline-block;
+    position: relative;
+    left: 5em;
+    top: 0;
+}
+
+.inicio-texto__eslogan {
+    font-size: 2em;
+    text-align: center;
+    background-color: #2d3535;
+    color: #8adba0;
+    position: relative;
+    top: -6.3em;
+    left: 0px;
+
+}
+.inicio-texto__nombre {
+    font-size: 7em;
+    background-color: #0afafa;
+    color: #1505f5;
+    border-radius: 0.1em;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    line-height: 1.2;
+    padding: 0.1em;
+    text-align: center;
+    position: relative;
+    top: -1.5em;
+    left: 0px;
+}
+
+.logo-xap {
+    display: inline-block;
+}
+
+.logo-xap__foto {
+    height: 20em;
+    width: 30em;
+    padding-left: 10em;
+    padding-right: 1em;
+    position: relative;
+    left: 10em;
+    top: -1.5em;
+}
+
+.navegacion {
+    display: block;
+    margin: 1.3em;
+    padding: 1.3em;
+    background-color: #8eb5bf;
+}
+
+.navegacion__volver {
+    background-color: #8adba0;    
+    border-radius: 0.5em;
+    border: 0.2em groove #35f505;
+    padding: 0.5em;
+    color: #FF0000;
+    text-align: center;
+    height: 40px;
+    width: 110px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.app {
+    display: block;
+    margin: 1em;
+    position: relative;
+    left: 0;
+    top: -5em;
+}
+
+.app__titulo {
+    font-size: 1.5em;
+    background-color: #dcc382;    
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.3em;
+    position: relative;
+    left: 3px;
+    top: 10px;
+    color: #eb9e34;
+
+}
+
+.app__logo {
+    border-radius: 0.3em;
+    display: inline-block;
+
+}
+
+.app__description {
+    height:  5.8em;
+    width: 47em;
+
+}
+
+.app__details {
+    color: #00ffe1;
+
+}
+
+.app__download {
+    height: 1em;
+    font-size: 0.8em;
+    text-decoration: none
+}
+
+.app__size {
+    color: crimson;
+}
+
+.app__format {
+    color: yellow;
+}
+
+.app__separador {
+    color:blueviolet;
+    
+}
+
